@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imageView8"
+        android:layout_width="409dp"
+        android:layout_height="733dp"
+        android:scaleType="centerCrop"
+        android:alpha="0.4"
+        app:srcCompat="@drawable/TUe_bibliotheek_4470"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="0dp" />
+
+    <Button
+        android:id="@+id/button"
+        style="@style/Widget.AppCompat.Button.Borderless.Colored"
+        android:layout_width="330dp"
+        android:layout_height="72dp"
+        android:fontFamily="monospace"
+        android:text="Study Buddy"
+        android:textAlignment="center"
+        android:textColor="@color/colorAccent"
+        android:textSize="36sp"
+        android:textStyle="bold"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="40dp"
+        tools:layout_editor_absoluteY="59dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="168dp"
+        android:layout_height="44dp"
+        android:fontFamily="monospace"
+        android:padding="300dp"
+        android:text="Planning"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="531dp"
+        tools:text="Planning" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="168dp"
+        android:layout_height="44dp"
+        android:fontFamily="monospace"
+        android:padding="300dp"
+        android:text="Health"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp"
+        android:typeface="normal"
+        tools:layout_editor_absoluteX="121dp"
+        tools:layout_editor_absoluteY="593dp" />
+
+</android.support.constraint.ConstraintLayout>
